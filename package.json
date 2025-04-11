@@ -1,0 +1,16 @@
+{
+    "name": "medeiros-bot",
+    "version": "1.0.0",
+    "description": "Chatbot para atendimento da Medeiros Calçados",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+      "axios": "^1.6.2",
+      "dotenv": "^16.3.1",
+      "whatsapp-web.js": "^1.23.0",
+      "qrcode-terminal": "^0.12.0"
+    }
+  }
